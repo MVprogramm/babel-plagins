@@ -1,0 +1,25 @@
+{
+  "name": "babel-plagins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:scripts": "babel ./src --out-dir=./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVprogramm/babel-plagins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVprogramm/babel-plagins/issues"
+  },
+  "homepage": "https://github.com/MVprogramm/babel-plagins#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-proposal-object-rest-spread": "^7.17.12",
+    "@babel/plugin-transform-arrow-functions": "^7.17.12"
+  }
+}
